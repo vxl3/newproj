@@ -1,0 +1,239 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Admin",
+      "email": "admin@ehjzly.com",
+      "password": "$2b$10$qy6MNBp7UWJxPyyRmy4qEecVXmhyBT7X4RF7cgx2sx294CK5Aseky",
+      "role": "ADMIN",
+      "createdAt": "2026-08-12T04:53:46.080Z"
+    },
+    {
+      "id": "u2",
+      "name": "صالون الأناقة",
+      "email": "barber@example.com",
+      "password": "$2b$10$K0H1R1mk0J9c7bg7iDwtLu34Is4izByExOblGdf7GDl85rKb0mrau",
+      "role": "PROVIDER",
+      "phone": "07801234567",
+      "createdAt": "2026-08-12T04:53:46.080Z"
+    },
+    {
+      "id": "u3",
+      "name": "أحمد الراوي",
+      "email": "ahmed@example.com",
+      "password": "$2b$10$4sp8m1EQmJOlg7wAvWrSEeefNH1jGnxmbNWMSg8uuOwkfBTkOKmfy",
+      "role": "CUSTOMER",
+      "phone": "07807654321",
+      "createdAt": "2026-08-12T04:53:46.080Z"
+    }
+  ],
+  "providers": [
+    {
+      "id": "p1",
+      "userId": "u2",
+      "businessName": "صالون الأناقة الرجالي",
+      "category": "BARBER",
+      "description": "أفضل صالون حلاقة رجالي في الرمادي، خدمات متكاملة وحلاقة عصرية مع طاقم محترف وخبرة 10 سنوات.",
+      "address": "شارع المستودع، مقابل مول الرمادي",
+      "city": "الرمادي",
+      "phone": "07801234567",
+      "rating": 4.9,
+      "reviewCount": 127,
+      "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400",
+      "coverImage": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800",
+      "isVerified": true,
+      "openTime": "09:00",
+      "closeTime": "22:00"
+    },
+    {
+      "id": "p2",
+      "userId": "u2",
+      "businessName": "عيادة الدكتور سامر للأسنان",
+      "category": "CLINIC",
+      "description": "عيادة أسنان متخصصة بأحدث الأجهزة، زراعة أسنان، تقويم، تبييض، حشوات تجميلية.",
+      "address": "شارع الأطباء، مجمع الشفاء الطبي",
+      "city": "الرمادي",
+      "phone": "07809998888",
+      "rating": 4.8,
+      "reviewCount": 89,
+      "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=400",
+      "coverImage": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800",
+      "isVerified": true,
+      "openTime": "08:00",
+      "closeTime": "20:00"
+    },
+    {
+      "id": "p3",
+      "userId": "u2",
+      "businessName": "ملعب النجوم الخماسي",
+      "category": "FIELD",
+      "description": "ملعب خماسي بعشب صناعي درجة أولى، إنارة ليلية، غرف تبديل، كافتيريا.",
+      "address": "حي التأميم، قرب جامع الحق",
+      "city": "الرمادي",
+      "phone": "07801112222",
+      "rating": 4.7,
+      "reviewCount": 203,
+      "image": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400",
+      "coverImage": "https://images.unsplash.com/photo-1574629810360-214f3774381b?w=800",
+      "isVerified": true,
+      "openTime": "16:00",
+      "closeTime": "01:00"
+    },
+    {
+      "id": "p4",
+      "userId": "u2",
+      "businessName": "مركز لمسة جمال النسائي",
+      "category": "SALON",
+      "description": "مركز تجميل نسائي متكامل، مكياج، قص شعر، عناية بشرة، بدكير ومنكير.",
+      "address": "شارع 20، عمارة النور الطابق الثاني",
+      "city": "الرمادي",
+      "phone": "07803334444",
+      "rating": 5,
+      "reviewCount": 156,
+      "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?w=400",
+      "coverImage": "https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800",
+      "isVerified": true,
+      "openTime": "10:00",
+      "closeTime": "21:00"
+    },
+    {
+      "id": "p5",
+      "userId": "u2",
+      "businessName": "جيم باور هاوس",
+      "category": "GYM",
+      "description": "نادي رياضي متكامل، أجهزة حديثة، مدربين محترفين، قسم خاص للنساء.",
+      "address": "شارع 17 تموز، مقابل حديقة الرمادي",
+      "city": "الرمادي",
+      "phone": "07805556666",
+      "rating": 4.6,
+      "reviewCount": 94,
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400",
+      "coverImage": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800",
+      "isVerified": false,
+      "openTime": "06:00",
+      "closeTime": "23:00"
+    }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "providerId": "p1",
+      "name": "حلاقة شعر عصرية",
+      "description": "حلاقة بأحدث الموديلات مع غسيل وتصفيف",
+      "price": 10000,
+      "duration": 30,
+      "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400"
+    },
+    {
+      "id": "s2",
+      "providerId": "p1",
+      "name": "حلاقة ذقن + تحديد",
+      "description": "تحديد ذقن احترافي مع بخار ساخن",
+      "price": 5000,
+      "duration": 20,
+      "image": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=400"
+    },
+    {
+      "id": "s3",
+      "providerId": "p1",
+      "name": "باقة العريس VIP",
+      "description": "حلاقة + حمام مغربي + عناية بشرة + مساج",
+      "price": 50000,
+      "duration": 90,
+      "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=400"
+    },
+    {
+      "id": "s4",
+      "providerId": "p2",
+      "name": "فحص و تنظيف أسنان",
+      "description": "فحص شامل وتنظيف طبقة الجير",
+      "price": 25000,
+      "duration": 45,
+      "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400"
+    },
+    {
+      "id": "s5",
+      "providerId": "p2",
+      "name": "حشوة تجميلية",
+      "description": "حشوة بيضاء تجميلية عالية الجودة",
+      "price": 40000,
+      "duration": 60,
+      "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=400"
+    },
+    {
+      "id": "s6",
+      "providerId": "p3",
+      "name": "حجز ساعة واحدة",
+      "description": "حجز الملعب لمدة 60 دقيقة",
+      "price": 30000,
+      "duration": 60,
+      "image": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=400"
+    },
+    {
+      "id": "s7",
+      "providerId": "p3",
+      "name": "حجز ساعتين + طقم تصوير",
+      "description": "حجز ساعتين مع طقم تصوير مباراة كاملة",
+      "price": 70000,
+      "duration": 120,
+      "image": "https://images.unsplash.com/photo-1574629810360-214f3774381b?w=400"
+    },
+    {
+      "id": "s8",
+      "providerId": "p4",
+      "name": "مكياج سهرة",
+      "description": "مكياج احترافي للسهرات والمناسبات",
+      "price": 35000,
+      "duration": 60,
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=400"
+    },
+    {
+      "id": "s9",
+      "providerId": "p5",
+      "name": "اشتراك شهري",
+      "description": "اشتراك شهر كامل مع مدرب خاص",
+      "price": 75000,
+      "duration": 30,
+      "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "userId": "u3",
+      "providerId": "p1",
+      "serviceId": "s1",
+      "date": "2026-08-13",
+      "startTime": "10:00",
+      "endTime": "10:30",
+      "status": "CONFIRMED",
+      "createdAt": "2026-08-12T04:53:46.080Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "r1",
+      "userId": "u3",
+      "providerId": "p1",
+      "rating": 5,
+      "comment": "أفضل صالون بالرمادي! خدمة راقية وحلاقة ممتازة",
+      "createdAt": "2026-08-12T04:53:46.080Z"
+    },
+    {
+      "id": "r2",
+      "userId": "u3",
+      "providerId": "p1",
+      "rating": 5,
+      "comment": "تعامل رائع ونظافة ممتازة",
+      "createdAt": "2026-08-12T04:53:46.080Z"
+    },
+    {
+      "id": "r3",
+      "userId": "u3",
+      "providerId": "p2",
+      "rating": 4,
+      "comment": "دكتور محترف جدا وأسعاره مناسبة",
+      "createdAt": "2026-08-12T04:53:46.080Z"
+    }
+  ]
+}
